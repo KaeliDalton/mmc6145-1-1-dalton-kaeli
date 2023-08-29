@@ -1,11 +1,13 @@
 import {Route, Routes} from 'react-router-dom'
 
+
 export default function Project(props) {
+   const photo = props.img
     return(
-        <li>
-        <h2>{props.name}</h2>
+        <div className='project'>
+        <h3>{props.name}</h3>
         <p>{props.description}</p>
-        <a className='button' href='#'>Check it out</a>
-        </li>
+         <img src={props.img} alt="picture from Unsplash" />
+        </div>
     )
 }

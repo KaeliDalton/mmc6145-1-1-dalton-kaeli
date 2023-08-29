@@ -1,3 +1,21 @@
-.placeholder {
-  font-size: 4rem;
+.project {
+  position: relative;
+}
+.project div{
+  position: absolute;
+}
+.heading{
+  color: #A7E178;
+}
+.intro{
+  height: 500px;
+  width: 100%;
+  background-image: url('https://unsplash.com/photos/QO4Y97jiVDQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkzMzM2NDE1fA&force=true&w=640');
+}
+.intro h1, p{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
