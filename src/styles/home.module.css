@@ -1,16 +1,28 @@
 .project {
   position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: blueviolet;
+  width: 30%;
+  padding: 5px;
 }
-.project div{
-  position: absolute;
+.project:hover{
+  opacity: 0;
 }
+
 .heading{
   color: #A7E178;
+  text-align: center;
 }
 .intro{
-  height: 500px;
-  width: 100%;
-  background-image: url('https://unsplash.com/photos/QO4Y97jiVDQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkzMzM2NDE1fA&force=true&w=640');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://unsplash.com/photos/QO4Y97jiVDQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkzMzM2NDE1fA&force=true&w=640');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 400px;
 }
 .intro h1, p{
   text-align: center;
@@ -18,4 +30,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.house {
+  background-image: url('/images/Image2.png');
+  height: 490px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  scale: 1;
+}
+.wheel {
+  background-image: url('/images/Image3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  scale: 1;
+  height: 1000px;
+
+}
+.tech {
+  background-image: url('/images/Image1.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }

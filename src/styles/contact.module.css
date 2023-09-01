@@ -1,3 +1,14 @@
 .heading{
     color: #A7E178;
   }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+   height: 300px;
+   background-color: azure;
+  }
+  h2 {
+    text-align: left;
+  }

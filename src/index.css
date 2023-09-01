@@ -5,28 +5,31 @@ body {
   color: azure;
   }
   main{
-    margin: 10px;
     text-align: center;
     padding-bottom: 40px;
   }
 img {
-  width: 30%;
   display: block;
 }
 a.button {
   background-color: blueviolet;
   border: none;
   color: azure;
-  padding: 10px 24px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 20px;
   border-radius: 8px;
   margin-top: 20px;
 }
 a{
   color: azure;
+}
+.link-header{
+  text-decoration: none;
+  font-size: large;
+  margin-right: 10px;
 }
 header {
   background-color: blueviolet;
@@ -35,7 +38,7 @@ header {
 }
 nav{
   width: 100%;
-  padding: 5px;
+  padding: 15px;
 }
 nav div{
   float: right;
@@ -43,36 +46,14 @@ nav div{
 nav div a{
   display: inline-block;
   margin-right: 10px;
-  padding-right: 5px;
-}
-.project{
-  position: relative;
-  margin: 20px auto;
-  margin-top: 50px;
-  width: 60%;
-}
-.project img{
-  width: 100%;
-  border: 2px solid azure;
-  /* box-shadow: 10px 10px 5px #FFE8CD; */
-}
-.project div{
-  position: absolute;
-  top: 25%;
-  left: 35%;
-  transform: translateX(-50%);
-  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5));
-  padding: 1.5em;
-}
-.project div:hover{
-  background-color: #ff0061;
+  padding-right: 15px;
 }
 footer{
   color: azure;
   text-align: center;
   background-color: blueviolet;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 80px;
 }
